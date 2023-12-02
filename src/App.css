@@ -1,0 +1,41 @@
+:root{
+
+  ---primary-color:#6f55f2;
+  --heading-color:#132742;
+}
+body{
+  font-size: 'Time New Roman',Times,serif;
+}
+section{
+
+  padding: 50px 0px;
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+link:hover{
+list-style: none;
+}
+.container{
+  width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+}
+.section_title{
+  color: var(--heading-color);
+  font-weight:700;
+}
+.register-btn{
+  background: var(---primary-color);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-family: var(--font-name);
+  font-size: 1rem;
+  font-weight: 700;
+  outline: none;
+  padding: 7px 15px;
+}
