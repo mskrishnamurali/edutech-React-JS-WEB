@@ -15,6 +15,7 @@ function LayoutRoutes() {
             <Header/>
             <Routes>
              <Route path='/' element={<Home/>}></Route>
+             <Route path='/edutech-React-JS-WEB' element={<Home/>}></Route>
              <Route path='/services' element={<Plans/>}></Route>
              <Route path='/courses' element={<Courses/>}></Route>
              <Route path='/aboutus' element={<AboutUs/>}></Route>
